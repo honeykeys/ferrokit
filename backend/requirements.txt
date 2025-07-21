@@ -1,0 +1,26 @@
+# --- Web framework & ASGI ---
+fastapi==0.111.0
+uvicorn[standard]==0.29.0          # gunicorn, httptools, etc.
+
+# --- AI / Data ---
+openai==1.30.5                     # GPT‑4o function calls
+pinecone-client==3.2.2           # managed vector store
+numpy==1.26.4
+scipy==1.12.0                      # for Beta sampling (optional)
+pandas==2.2.2
+python-dateutil==2.9.0.post0
+
+# --- Caching & utilities ---
+cachetools==5.3.3
+python-dotenv==1.0.1
+pydantic[email]==2.7.1             # JSON validation
+
+# --- Security (crypto for field‑level encryption) ---
+cryptography==42.0.5
+
+# --- Dev / tests ---
+pytest==8.2.1
+pytest-asyncio==0.23.6
+black==24.4.2
+ruff==0.4.4
+python-multipart==0.0.9 # pin version
